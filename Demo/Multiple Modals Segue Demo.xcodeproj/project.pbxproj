@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D1CBFB21C3C0FC900BF38F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1CBFB11C3C0FC900BF38F5 /* main.m */; };
+		0D1CBFB51C3C0FC900BF38F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1CBFB41C3C0FC900BF38F5 /* AppDelegate.m */; };
+		0D1CBFB81C3C0FC900BF38F5 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1CBFB71C3C0FC900BF38F5 /* RootViewController.m */; };
+		0D1CBFBB1C3C0FC900BF38F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D1CBFB91C3C0FC900BF38F5 /* Main.storyboard */; };
+		0D1CBFBD1C3C0FC900BF38F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D1CBFBC1C3C0FC900BF38F5 /* Assets.xcassets */; };
+		0D1CBFC01C3C0FC900BF38F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D1CBFBE1C3C0FC900BF38F5 /* LaunchScreen.storyboard */; };
+		0D1CBFCC1C3C120D00BF38F5 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1CBFCB1C3C120D00BF38F5 /* ViewController1.m */; };
+		0D1CBFCF1C3C123400BF38F5 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1CBFCE1C3C123400BF38F5 /* ViewController2.m */; };
+		0D1CBFD71C3C13A300BF38F5 /* MultipleModalsSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1CBFD61C3C13A300BF38F5 /* MultipleModalsSegue.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D1CBFAD1C3C0FC900BF38F5 /* Multiple Modals Segue Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multiple Modals Segue Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D1CBFB11C3C0FC900BF38F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D1CBFB31C3C0FC900BF38F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0D1CBFB41C3C0FC900BF38F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0D1CBFB61C3C0FC900BF38F5 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		0D1CBFB71C3C0FC900BF38F5 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		0D1CBFBA1C3C0FC900BF38F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D1CBFBC1C3C0FC900BF38F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D1CBFBF1C3C0FC900BF38F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D1CBFC11C3C0FC900BF38F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D1CBFCA1C3C120D00BF38F5 /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		0D1CBFCB1C3C120D00BF38F5 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		0D1CBFCD1C3C123400BF38F5 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		0D1CBFCE1C3C123400BF38F5 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		0D1CBFD51C3C13A300BF38F5 /* MultipleModalsSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipleModalsSegue.h; sourceTree = "<group>"; };
+		0D1CBFD61C3C13A300BF38F5 /* MultipleModalsSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipleModalsSegue.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D1CBFAA1C3C0FC900BF38F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D1CBFA41C3C0FC900BF38F5 = {
+			isa = PBXGroup;
+			children = (
+				0D1CBFAF1C3C0FC900BF38F5 /* Multiple Modals Segue Demo */,
+				0D1CBFAE1C3C0FC900BF38F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D1CBFAE1C3C0FC900BF38F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D1CBFAD1C3C0FC900BF38F5 /* Multiple Modals Segue Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D1CBFAF1C3C0FC900BF38F5 /* Multiple Modals Segue Demo */ = {
+			isa = PBXGroup;
+			children = (
+				0D1CBFDB1C3C13BC00BF38F5 /* App Delegate */,
+				0D1CBFDA1C3C13B500BF38F5 /* Root View Controller */,
+				0D1CBFD91C3C13AE00BF38F5 /* View Controller 1 */,
+				0D1CBFD81C3C13A600BF38F5 /* View Controller 2 */,
+				0D1CBFD41C3C13A300BF38F5 /* MultipleModalsSegue */,
+				0D1CBFB91C3C0FC900BF38F5 /* Main.storyboard */,
+				0D1CBFBC1C3C0FC900BF38F5 /* Assets.xcassets */,
+				0D1CBFBE1C3C0FC900BF38F5 /* LaunchScreen.storyboard */,
+				0D1CBFC11C3C0FC900BF38F5 /* Info.plist */,
+				0D1CBFB01C3C0FC900BF38F5 /* Supporting Files */,
+			);
+			path = "Multiple Modals Segue Demo";
+			sourceTree = "<group>";
+		};
+		0D1CBFB01C3C0FC900BF38F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D1CBFB11C3C0FC900BF38F5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0D1CBFD41C3C13A300BF38F5 /* MultipleModalsSegue */ = {
+			isa = PBXGroup;
+			children = (
+				0D1CBFD51C3C13A300BF38F5 /* MultipleModalsSegue.h */,
+				0D1CBFD61C3C13A300BF38F5 /* MultipleModalsSegue.m */,
+			);
+			name = MultipleModalsSegue;
+			path = ../../MultipleModalsSegue;
+			sourceTree = "<group>";
+		};
+		0D1CBFD81C3C13A600BF38F5 /* View Controller 2 */ = {
+			isa = PBXGroup;
+			children = (
+				0D1CBFCD1C3C123400BF38F5 /* ViewController2.h */,
+				0D1CBFCE1C3C123400BF38F5 /* ViewController2.m */,
+			);
+			name = "View Controller 2";
+			sourceTree = "<group>";
+		};
+		0D1CBFD91C3C13AE00BF38F5 /* View Controller 1 */ = {
+			isa = PBXGroup;
+			children = (
+				0D1CBFCA1C3C120D00BF38F5 /* ViewController1.h */,
+				0D1CBFCB1C3C120D00BF38F5 /* ViewController1.m */,
+			);
+			name = "View Controller 1";
+			sourceTree = "<group>";
+		};
+		0D1CBFDA1C3C13B500BF38F5 /* Root View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0D1CBFB61C3C0FC900BF38F5 /* RootViewController.h */,
+				0D1CBFB71C3C0FC900BF38F5 /* RootViewController.m */,
+			);
+			name = "Root View Controller";
+			sourceTree = "<group>";
+		};
+		0D1CBFDB1C3C13BC00BF38F5 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				0D1CBFB31C3C0FC900BF38F5 /* AppDelegate.h */,
+				0D1CBFB41C3C0FC900BF38F5 /* AppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D1CBFAC1C3C0FC900BF38F5 /* Multiple Modals Segue Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D1CBFC41C3C0FC900BF38F5 /* Build configuration list for PBXNativeTarget "Multiple Modals Segue Demo" */;
+			buildPhases = (
+				0D1CBFA91C3C0FC900BF38F5 /* Sources */,
+				0D1CBFAA1C3C0FC900BF38F5 /* Frameworks */,
+				0D1CBFAB1C3C0FC900BF38F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Multiple Modals Segue Demo";
+			productName = "Multiple Modals Segue Demo";
+			productReference = 0D1CBFAD1C3C0FC900BF38F5 /* Multiple Modals Segue Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D1CBFA51C3C0FC900BF38F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Ihre IT";
+				TargetAttributes = {
+					0D1CBFAC1C3C0FC900BF38F5 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 0D1CBFA81C3C0FC900BF38F5 /* Build configuration list for PBXProject "Multiple Modals Segue Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D1CBFA41C3C0FC900BF38F5;
+			productRefGroup = 0D1CBFAE1C3C0FC900BF38F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D1CBFAC1C3C0FC900BF38F5 /* Multiple Modals Segue Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D1CBFAB1C3C0FC900BF38F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D1CBFC01C3C0FC900BF38F5 /* LaunchScreen.storyboard in Resources */,
+				0D1CBFBD1C3C0FC900BF38F5 /* Assets.xcassets in Resources */,
+				0D1CBFBB1C3C0FC900BF38F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D1CBFA91C3C0FC900BF38F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D1CBFCC1C3C120D00BF38F5 /* ViewController1.m in Sources */,
+				0D1CBFD71C3C13A300BF38F5 /* MultipleModalsSegue.m in Sources */,
+				0D1CBFB81C3C0FC900BF38F5 /* RootViewController.m in Sources */,
+				0D1CBFB51C3C0FC900BF38F5 /* AppDelegate.m in Sources */,
+				0D1CBFB21C3C0FC900BF38F5 /* main.m in Sources */,
+				0D1CBFCF1C3C123400BF38F5 /* ViewController2.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0D1CBFB91C3C0FC900BF38F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D1CBFBA1C3C0FC900BF38F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0D1CBFBE1C3C0FC900BF38F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D1CBFBF1C3C0FC900BF38F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D1CBFC21C3C0FC900BF38F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0D1CBFC31C3C0FC900BF38F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D1CBFC51C3C0FC900BF38F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Multiple Modals Segue Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.IhreIT.Multiple-Modals-Segue-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0D1CBFC61C3C0FC900BF38F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Multiple Modals Segue Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.IhreIT.Multiple-Modals-Segue-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D1CBFA81C3C0FC900BF38F5 /* Build configuration list for PBXProject "Multiple Modals Segue Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D1CBFC21C3C0FC900BF38F5 /* Debug */,
+				0D1CBFC31C3C0FC900BF38F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D1CBFC41C3C0FC900BF38F5 /* Build configuration list for PBXNativeTarget "Multiple Modals Segue Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D1CBFC51C3C0FC900BF38F5 /* Debug */,
+				0D1CBFC61C3C0FC900BF38F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D1CBFA51C3C0FC900BF38F5 /* Project object */;
+}
