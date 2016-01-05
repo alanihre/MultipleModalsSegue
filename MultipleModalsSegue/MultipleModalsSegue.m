@@ -8,24 +8,23 @@
 
 #import "MultipleModalsSegue.h"
 
-@implementation MultipleModalsSegue{
-    UIImageView *_snapshotImageView;
-}
+@implementation MultipleModalsSegue
 
 - (void)perform{
     
     UIViewController *sourceViewController = [self sourceViewController];
     __block UIViewController *destinationViewController = [self destinationViewController];
     
+    //Create a snapshot image of the source view controller to show while displaying the first modal view controller
     UIGraphicsBeginImageContextWithOptions(sourceViewController.view.bounds.size, NO, 0);
     CGContextRef context = UIGraphicsGetCurrentContext();
     [sourceViewController.view.layer renderInContext:context];
     UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
-    _snapshotImageView = [[UIImageView alloc] initWithFrame:sourceViewController.view.frame];
-    _snapshotImageView.image = image;
+    __block UIImageView *snapshotImageView = [[UIImageView alloc] initWithFrame:sourceViewController.view.frame];
+    snapshotImageView.image = image;
     UIWindow *window = [UIApplication sharedApplication].keyWindow;
-    [window insertSubview:_snapshotImageView atIndex:0];
+    [window insertSubview:snapshotImageView atIndex:0];
     
     destinationViewController.view.alpha = 0;
     UIViewController *rootViewController = nil;
@@ -40,7 +39,7 @@
     [(id <MultipleModalsSegueViewController>)rootViewController presentModals:^{
         destinationViewController.view.alpha = 1;
         
-        [_snapshotImageView removeFromSuperview];
+        [snapshotImageView removeFromSuperview];
     }];
     
 }
